@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="quizegame.css
+    "
+    />
+  </head>
+  <body>
+    <div class="container-fluid main_div">
+      <div class="box" id="second_box">
+        <h3 id="quebox">this is the dummy question</h3>
+        <div class="option">
+            <input type="radio" name="option" id="option1" value="a" class="inp_option"/>
+          <label for="option1"> Option 1 </label>
+        </div> <br><br>
+        <div class="option">
+            <input type="radio" name="option" id="option2" value="b"class="inp_option" />
+          <label for="option2"> Option 2 </label>
+        </div>
+        <br><br>
+        <div class="option">
+            <input type="radio" name="option" id="option3" value="c"class="inp_option" />
+          <label for="option3"> Option 3 </label>
+        </div>
+        <br><br>
+        <div class="option">
+            <input type="radio" name="option" id="option4" value="d" class="inp_option"/>
+          <label for="option4"> Option 4 </label>
+        </div>
+        <br>
+        <div class="btn btn-primary sub" onclick="submitquize()">
+            Submit
+        </div>
+      </div>
+    </div>
+    <script src="quizegame.js"></script>
+
+    <!-- bootstrap cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
